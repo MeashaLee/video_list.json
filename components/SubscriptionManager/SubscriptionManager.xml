@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="SubscriptionManager" extends="Group">
+    <script type="text/brightscript" uri="pkg:/components/SubscriptionManager/SubscriptionManager.brs" />
+    <children>
+        <Label id="titleLabel" text="Subscription Management" />
+        <Button id="freeTierButton" text="Free Tier" />
+        <Button id="subscribedTierButton" text="Subscribed Tier" />
+        <Button id="exclusiveTierButton" text="Exclusive Tier" />
+        <Button id="payPerViewButton" text="Pay Per View" />
+    </children>
+</component>

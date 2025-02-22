@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="UserAuth" extends="Group">
+    <script type="text/brightscript" uri="pkg:/components/UserAuth/UserAuth.brs" />
+    <children>
+        <Label id="titleLabel" text="User Authentication" />
+        <Button id="loginButton" text="Log In" />
+        <Button id="signupButton" text="Sign Up" />
+        <Button id="socialLoginButton" text="Log In with Google/Facebook" />
+    </children>
+</component>
